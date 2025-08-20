@@ -1,0 +1,254 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Navbar */
+nav {
+background: #fbff009f;
+color: white;
+display: flex;
+height: 70px;
+align-items: center;
+justify-content: space-between;
+padding: 0.7rem 2rem;
+}
+
+/* Logo */
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: black;
+display: flex;
+font-size: 1.3rem;
+font-family: sans-serif;
+}
+.logo h1{
+padding: 7px 0 0 20px;
+}
+
+/* Menu Links */
+ul {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+ul li {
+position: relative;
+}
+
+ul li a {
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-size: 1.6rem;
+font-family: sans-serif;
+transition: color 0.3s;
+}
+
+ul li a:hover {
+color: #ff9800;
+}
+
+/* Dropdown */
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: #333;
+min-width: 250px;
+box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+z-index: 1;
+border-radius: 5px;
+}
+
+.dropdown-content a {
+display: block;
+padding: 0.7rem 1rem;
+color: white;
+}
+
+.dropdown-content a:hover {
+background: #444;
+}
+
+li:hover .dropdown-content {
+display: block;
+}
+.main{
+    width: 100%;
+    background-color: white;
+    font-family: sans-serif;
+}
+.image-detail{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.ads{
+position: absolute;
+background: rgba(0, 0, 0, 0.747);
+top: 0;
+height: 400px;
+width: 100%;
+}
+.ads h1{
+    color: rgb(199, 198, 198);
+    font-size: 50px;
+    margin: 170px 0 0 130px;
+}
+.main{
+    width: 100%;
+    background: white;
+    font-family: sans-serif;
+}
+.pvr-heading{
+    padding: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.paragraph{
+    width: 95%;
+    padding: 0 0 20px 50px;
+    color: #444;
+    font-size: 20px;
+}
+.paragraph p{
+    padding-top: 20px;
+}
+.cinema{
+    display: flex;
+}
+.image-1 img{
+   width: 100%;
+   height: 100%;
+   padding: 20px;
+}
+.visual-advertising{
+    display: flex;
+    font-family: sans-serif;
+}
+.visual-paragraph{
+    width: 75%;
+    font-family: sans-serif;
+}
+.visual-paragraph p{
+    width: 95%;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #444;
+}
+.visual-heading{
+    padding: 30px 0 20px 50px;
+}
+.image-2{
+    width: 25%;
+    padding: 20px;
+}
+.image-2 img{
+    width: 100%;
+    height: 50%;
+}
+.pvr-branding{
+    background: rgba(255, 115, 0, 0.938);
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    height: 120px;
+}
+button{
+    width: 250px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 12px;
+    border: none;
+}
+button:hover{
+    background: rgb(255, 30, 0);
+}
+.other-services{
+    text-align: center;
+    margin: 50px;
+    font-size: 22px;
+}
+footer{
+height: 303px;
+background-color: #131313d8;
+display: flex;
+}
+.footer1{
+width: 40%;
+}
+.line1{
+margin-left: 80px;
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.line1 p{
+padding-top: 5px;
+}
+.line1 p a{
+color: rgb(255, 255, 255);
+list-style: none;
+text-decoration: none;
+}
+.line1 p a:hover{
+    color: orange;
+}
+.footer2{
+width:60%;
+display: flex;
+margin-top: 20px;
+}
+.line2{
+margin-left: 80px;
+
+}
+.LINE-2{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.LINE-2 h4{
+margin-bottom: 5px;
+}
+.LINE-2 p:hover{
+    color: orange;
+}
+.locations{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.locations p{
+margin-top: 4px;
+}
+.locations p:hover{
+    color: orange;
+}
+.cont{
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.cont p{
+margin-top: 4px;
+}
+.cont p:hover{
+    color: orange;
+}
+.font-icon{
+margin-top: 40px;
+color: rgb(255, 255, 255);
+font-size: large;
+}
+.copyright {
+padding-left: 40px;
+background-color: #131313d8;
+height: 25px;
+font-family: sans-serif;
+color: white;
+}

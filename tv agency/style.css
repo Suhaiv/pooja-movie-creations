@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-left: 10px;
+}
+.logo h2{
+    margin-top: 16px;
+    font-family: sans-serif;
+}
+.header ul li{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+ul{
+    margin-top: 20px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+.main{
+    background: black;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+#cl1{
+    color: yellow;
+    padding-left: 8px;
+}
+.aero-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    padding-bottom: 30px;
+}
+.aero1{
+    width: 45px;
+}
+.tv{
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
+}
+.tv hr{
+    width: 195px;
+}
+.radio{
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
+}
+.radio hr{
+    width: 280px;
+}
+.camera{
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
+}
+.camera hr{
+    width: 310px;
+}
+.metro{
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
+}
+.metro hr{
+    width: 250px;
+}
+.aeroplane{
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
+}
+.aeroplane hr{
+    width: 270px;
+}
+.paragraph{
+    margin-top: 15px 
+}
+#P1{
+    margin-top: 5px;
+    color: rgb(211, 204, 204);
+}
+.img{
+    display: flex;
+    padding-bottom: 5PX;
+}
+.img h3{
+    padding-left: 15px;
+}
+.img-r{
+    display: flex;
+}
+.img-r img{
+ margin-bottom: 10px;
+}
+.img-r h3{
+
+margin-top: 20px;
+}
+.img1{
+    display: flex;
+}
+.img1 img{
+   margin-left: -20px;
+}
+
+#metro{
+    padding-top: 10px;
+}
+footer{
+    height: 303px;
+    background-color: rgba(32, 32, 32, 0.918);
+    display: flex;
+}
+.footer1{
+width: 40%;
+
+}
+.line1{
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.line1 ul{
+    list-style: none;
+}
+.line1 ul li{
+    margin-top: 10px;
+}
+.footer2{
+width:60%;
+display: flex;
+margin-top: 20px;
+}
+.line2{
+    margin-left: 80px;
+   
+}
+.LINE-2{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.LINE-2 h4{
+    margin-bottom: 5px;
+}
+.locations{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.locations p{
+    margin-top: 4px;
+}
+.cont{
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.cont p{
+    margin-top: 4px;
+}
+.font-icon{
+    margin-top: 40px;
+    color: white;
+    font-size: large;
+}
+.copyright {
+    padding-left: 40px;
+    background-color: rgba(32, 32, 32, 0.918);
+    color: rgb(112, 112, 112);
+    height: 25px;
+    font-family: sans-serif;
+}

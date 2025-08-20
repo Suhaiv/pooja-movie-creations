@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+background: #d1d0d0;
+  color: #333;
+}
+.header{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+color: rgb(2, 238, 255);
+}
+.logo{
+display: flex;
+justify-content: center;
+height: 60px;
+margin-left: 20px;
+padding-top: 10px;
+}
+.logo h2{
+margin: 0 0 0 10px;
+font-family: sans-serif;
+color: rgb(255, 74, 2);
+}
+.header ul li{
+display: inline;
+font-size: 20px;
+font-weight: bold;
+margin: 15px;
+}
+ul{
+margin-top: 20px;
+margin-right: 50px;
+font-family: sans-serif;
+}
+li a{
+text-decoration: none;
+color: rgb(255, 74, 2);
+}
+li a:hover{
+color: rgb(255, 74, 2);
+text-shadow: 0 0 10px rgb(255, 74, 2), 0 0 20px rgb(255, 74, 2), 0 0 40px rgb(255, 188, 2), 0 0 80px rgb(255, 188, 2),
+0 0 160px rgb(255, 74, 2);
+}
+.hero-section{
+      background: url('https://images.unsplash.com/photo-1522199710521-72d69614c702') no-repeat center center/cover;
+}
+.image-sec{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #ff5e57;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #ee0a0a;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about, .contact, .testimonials {
+  text-align: center;
+}
+.about h2{
+    color: #000;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.about p{
+    font-size: 20px;
+}
+
+.services .service-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.services h2{
+     color: #000;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.testimonials h2{
+ color: #000;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.testimonials blockquote{
+    font-size: 20px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1.5rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+box-shadow: 0 18px 20px rgba(37, 36, 36, 0.925);
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}

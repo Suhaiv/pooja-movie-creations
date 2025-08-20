@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Ads Making Company</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #aaa8a8;
+      color: #333;
+    }
+
+    .about-section {
+      background: #070707;
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: 50px auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .about-text {
+      flex: 1 1 500px;
+    }
+
+    .about-text h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #e63946;
+      font-weight: bold;
+    }
+
+    .about-text p {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      color: #838282;
+    }
+
+    .about-text .btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #e63946;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .about-text .btn:hover {
+      background: #b71c1c;
+    }
+
+    /* Collage Styling */
+    .about-collage {
+      flex: 1 1 500px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .about-collage img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      transition: transform 0.4s;
+    }
+
+    .about-collage img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      .about-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-collage {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .about-collage {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="about-section">
+    <div class="about-container">
+
+      <!-- Text Content -->
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>
+          Welcome to <strong>[Your Company Name]</strong>, a leading creative agency 
+          specializing in impactful ad making and visual storytelling. 
+          We bring brands to life through stunning commercials, digital ads, 
+          and innovative campaigns designed to inspire and connect with audiences.  
+        </p>
+        <p>
+          With a team of skilled creators, directors, and designers, 
+          we focus on delivering advertisements that not only grab attention 
+          but also drive results. Whether it’s TV, digital platforms, 
+          or social media, we craft messages that leave a mark.  
+        </p>
+        <a href="#contact" class="btn">Work With Us</a>
+      </div>
+
+      <!-- Image Collage -->
+      <div class="about-collage">
+        <img src="https://picsum.photos/400/400?random=21" alt="Ad Shooting">
+        <img src="https://picsum.photos/400/400?random=22" alt="Creative Editing">
+        <img src="https://picsum.photos/400/400?random=23" alt="Digital Campaign">
+        <img src="https://picsum.photos/400/400?random=24" alt="Brand Strategy">
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

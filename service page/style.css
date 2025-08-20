@@ -1,0 +1,330 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Navbar */
+nav {
+background: #fbff009f;
+color: white;
+display: flex;
+height: 70px;
+align-items: center;
+justify-content: space-between;
+padding: 0.7rem 2rem;
+}
+
+/* Logo */
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: black;
+display: flex;
+font-size: 1.3rem;
+font-family: sans-serif;
+}
+.logo h1{
+padding: 7px 0 0 20px;
+}
+
+/* Menu Links */
+ul {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+ul li {
+position: relative;
+}
+
+ul li a {
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-size: 1.6rem;
+font-family: sans-serif;
+transition: color 0.3s;
+}
+
+ul li a:hover {
+color: #ff9800;
+}
+
+/* Dropdown */
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: #333;
+min-width: 250px;
+box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+z-index: 1;
+border-radius: 5px;
+}
+
+.dropdown-content a {
+display: block;
+padding: 0.7rem 1rem;
+color: white;
+}
+
+.dropdown-content a:hover {
+background: #444;
+}
+
+li:hover .dropdown-content {
+display: block;
+}
+.main{
+background:rgb(17, 17, 17);
+display: flex;
+} 
+.box-1{
+    margin-top: 8px; 
+    background:rgb(17, 17, 17);
+}
+.box1{
+    background: white;
+    height: 130px;
+    width: 370px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex; 
+}
+.icon{
+    width: 80px;
+}
+.icons{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 35px 10px 10px 13px;
+    border-radius: 120px;
+    background: black;
+}
+.icons i{
+    color: white;
+    font-size: 25px;
+    padding: 10px 10px 10px 15px;
+    
+}
+.icons-mail{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 35px 10px 10px 13px;
+    border-radius: 120px;
+    background: black;
+}
+.icons-mail i{
+    color: white;
+    font-size: 25px;
+    padding: 10px 10px 10px 11px;
+    
+}
+.location{
+    margin-top: 20px;
+    font-family: sans-serif;
+    
+}
+.location p{
+    margin-top: 7px;
+    font-family: sans-serif;
+ 
+}
+.box1 h3{
+    font-weight: bold;
+}
+.box-2{
+    background: rgb(17,17,17);
+}
+.box-2 h2{
+    margin-top: 50px;
+    margin-left: 30px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.detail-1{
+    display: flex;
+    margin: 30px;
+    background: rgb(17, 17, 17);
+    color: aliceblue;
+}
+.name label{
+     font-family: sans-serif;
+}
+.name input{
+    height: 35px;
+    width: 380px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    background: black;
+    color: aliceblue;
+}
+.name .fa-solid{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+.name input::placeholder{
+    color: rgb(43, 42, 42);
+    position: absolute;
+    margin-left: 60px;
+}
+.name i{
+   color: rgb(57, 58, 58);
+  
+}
+.mail{
+    margin-left: 30px;
+     font-family: sans-serif;
+}
+.mail input{
+     height: 35px;
+    width: 380px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+    background: black;
+    color: aliceblue;
+}
+.mail .fa-regular{
+    position: absolute;
+      margin-top: 14px;
+    margin-left: 20px;
+}
+.mail input::placeholder{
+    color: rgb(43, 42, 42);
+    position: absolute;
+    margin-left: 60px;
+}
+.mail i{
+      color: rgb(57, 58, 58);
+}
+.message{
+    background: rgb(17, 17, 17);
+    color: aliceblue;
+    margin: 30px;
+    font-family: sans-serif;
+}
+.message input{
+    height: 60px;
+    border-radius: 10px;
+    width: 800px;
+    background: black;
+  border: none;
+    margin-top: 5px;
+}
+.message .fa-regular{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+.message i{
+      color: rgb(57, 58, 58);
+}
+.message input::placeholder{
+    color: rgb(43, 42, 42);
+    position: absolute;
+    margin-left: 70px;
+   margin-top: -10px;
+}
+.btn{
+     margin-left: 10px;
+    padding: 20px;
+}
+#btn{
+    width: 800px;
+    height: 40px;
+    font-size: large;
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.img img{
+width: 100%;
+height: 500px;
+}
+footer{
+height: 303px;
+background-color: #131313d8;
+display: flex;
+}
+.footer1{
+width: 40%;
+}
+.line1{
+margin-left: 80px;
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.line1 p{
+padding-top: 5px;
+}
+.line1 p a{
+color: rgb(255, 255, 255);
+list-style: none;
+text-decoration: none;
+}
+.line1 p a:hover{
+    color: orange;
+}
+.footer2{
+width:60%;
+display: flex;
+margin-top: 20px;
+}
+.line2{
+margin-left: 80px;
+
+}
+.LINE-2{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.LINE-2 h4{
+margin-bottom: 5px;
+}
+.LINE-2 p:hover{
+    color: orange;
+}
+.locations{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.locations p{
+margin-top: 4px;
+}
+.locations p:hover{
+    color: orange;
+}
+.cont{
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.cont p{
+margin-top: 4px;
+}
+.cont p:hover{
+    color: orange;
+}
+.font-icon{
+margin-top: 40px;
+color: rgb(255, 255, 255);
+font-size: large;
+}
+.copyright {
+padding-left: 40px;
+background-color: #131313d8;
+height: 25px;
+font-family: sans-serif;
+color: white;
+}
+

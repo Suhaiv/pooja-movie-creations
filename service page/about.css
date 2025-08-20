@@ -1,0 +1,231 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+background: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+background: #fbff009f;
+color: white;
+display: flex;
+height: 70px;
+align-items: center;
+justify-content: space-between;
+padding: 0.7rem 2rem;
+}
+
+/* Logo */
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: black;
+display: flex;
+font-size: 1.3rem;
+font-family: sans-serif;
+}
+.logo h1{
+padding: 7px 0 0 20px;
+}
+
+/* Menu Links */
+ul {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+ul li {
+position: relative;
+}
+
+ul li a {
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-size: 1.6rem;
+font-family: sans-serif;
+transition: color 0.3s;
+}
+
+ul li a:hover {
+color: #ff9800;
+}
+
+/* Dropdown */
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: #333;
+min-width: 250px;
+box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+z-index: 1;
+border-radius: 5px;
+}
+
+.dropdown-content a {
+display: block;
+padding: 0.7rem 1rem;
+color: white;
+}
+
+.dropdown-content a:hover {
+background: #444;
+}
+
+li:hover .dropdown-content {
+display: block;
+}
+.main{
+    background: rgb(255, 255, 255);
+}
+.create-brand{
+    position: relative;
+}
+.banner-text{
+    color: rgb(172, 167, 167);
+    position: absolute;
+    top: 0;
+    top: 50%;
+    font-family: sans-serif;
+    padding: 5px 25px;
+    margin-left: 20%;
+    background: rgba(27, 27, 27, 0.459);
+}
+.services{
+    display: flex;
+    justify-content: center;
+    color: rgb(7, 7, 7);
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+#cl1{
+    color: rgb(255, 153, 0);
+    padding-left: 8px;
+}
+.aero-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    padding-bottom: 30px;
+}
+.aero1{
+    width: 45px;
+}
+.paragraph{
+    padding: 25px;
+}
+#p1{
+    color: rgb(53, 52, 52);
+    padding: 3px 0 0 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.our-clint{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.our-clint hr{
+  margin: 0 465px 0 465px;
+}
+.we-dont{
+    color: rgb(255, 123, 0);
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.paragraph2{
+    padding: 25px 25px 0 25px;
+}
+.paragraph3{
+   padding: 20px 25px 0 25px;
+}
+.paragraph4{
+   padding: 20px 25px 15px 25px;
+}
+footer{
+height: 303px;
+background-color: #131313d8;
+display: flex;
+}
+.footer1{
+width: 40%;
+}
+.line1{
+margin-left: 80px;
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.line1 p{
+padding-top: 5px;
+}
+.line1 p a{
+color: rgb(255, 255, 255);
+list-style: none;
+text-decoration: none;
+}
+.line1 p a:hover{
+    color: orange;
+}
+.footer2{
+width:60%;
+display: flex;
+margin-top: 20px;
+}
+.line2{
+margin-left: 80px;
+
+}
+.LINE-2{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.LINE-2 h4{
+margin-bottom: 5px;
+}
+.LINE-2 p:hover{
+    color: orange;
+}
+.locations{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.locations p{
+margin-top: 4px;
+}
+.locations p:hover{
+    color: orange;
+}
+.cont{
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.cont p{
+margin-top: 4px;
+}
+.cont p:hover{
+    color: orange;
+}
+.font-icon{
+margin-top: 40px;
+color: rgb(255, 255, 255);
+font-size: large;
+}
+.copyright {
+padding-left: 40px;
+background-color:#131313d8;
+height: 25px;
+font-family: sans-serif;
+color: white;
+}

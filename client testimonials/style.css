@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+  body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+}
+.header{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+color: #0ef;
+background: black;
+}
+.logo{
+display: flex;
+justify-content: center;
+height: 60px;
+margin-left: 20px;
+padding-top: 10px;
+
+}
+.logo h2{
+margin: 8px;
+font-family: sans-serif;
+color: #0ef;
+}
+.header ul li{
+display: inline;
+font-size: 20px;
+font-weight: bold;
+margin: 15px;
+}
+ul{
+margin-top: 20px;
+margin-right: 50px;
+font-family: sans-serif;
+}
+li a{
+text-decoration: none;
+color: #0ef;
+}
+li a:hover{
+color: #0ef;
+text-shadow: 0 0 10px #0ef, 0 0 20px #0ef, 0 0 40px #0ef, 0 0 80px #0ef,
+0 0 160px #0ef;
+
+}
+header {
+  background-color: #000;
+  background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1') center/cover no-repeat;
+  color: #ffd700;
+  padding: 140px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  color: #ccc;
+}
+.mains{
+      background: #1d1c1c;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+}
+.container h1{
+    font-size: 40px;
+    margin-top: -20px;
+  margin-bottom: 10px;
+  color: #ffd700;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #7e7e7e;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  transition: transform 0.3s;
+}
+
+.testimonial:hover {
+  transform: translateY(-8px);
+   box-shadow: 5px 2px 20px 10px rgba(165, 163, 163, 0.925);
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #444;
+}
+
+.client-info {
+  margin-top: 20px;
+}
+
+.client-name {
+  font-weight: bold;
+  color: #000;
+}
+
+.client-position {
+  color: #777;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #aaa;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+font-size: 28px;
+  }
+
+  h2 {
+font-size: 24px;
+  }
+}

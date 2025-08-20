@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-left: 10px;
+}
+.logo h2{
+    margin-top: 16px;
+    font-family: sans-serif;
+}
+.header ul li{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+ul{
+    margin-top: 20px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+.main{
+    background: black;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+    font-family: sans-serif;
+}
+#cl1{
+    color: yellow;
+    padding-left: 8px;
+}
+.aero-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    
+}
+.aero1{
+    width: 45px;
+}
+.paragraph{
+    padding:20px 25px 10px 25px;
+}
+#p1{
+   color: white;
+   padding-top: 3px;
+   font-family: sans-serif;
+}
+.managing-director-1{
+    display: flex;
+}
+.managing-director-detail{
+
+width: 60%;
+}
+.mg-dt-img{
+    width: 40%;
+    padding-right: 40px;
+}
+.managing-director{
+    color: white;
+    display: flex;
+    padding: 45px 0 0 45px;
+    font-family: sans-serif;
+    
+}
+.managing-director h2{
+    color: yellow;
+    padding-top: 8px;
+    padding-left: 4px;
+}
+.aero-111{
+    display: flex;
+    padding-left: 140px;
+    padding-top: 10px;
+}
+.aero112{
+    width: 70px;
+}
+.ceo{
+    padding: 25px
+}
+.ceo-p1{
+    text-align: left;
+}
+.ceo-p2{
+    margin-top: 20px;
+}
+#color{
+    color: yellow;
+    font-family: sans-serif;
+}
+#director{
+    color: white;
+    font-family: sans-serif;
+    padding: 3px;
+}
+.group-director{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.group-director-img{
+    width: 40%;
+}
+.group-detail{
+   width: 50%;
+   text-align: right;
+}
+.head-director{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    padding-left: 320px;
+}
+.group-dt2{
+    padding-top: 7px;
+}
+.aero-11{
+   display: flex;
+   padding-left: 385px;
+   margin-top: 8px;
+}
+.aero12{
+    width: 70px;
+}
+.group-dt-p{
+    color: white;
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+#group-dt-p1{
+    padding-top: 4px;
+}
+.center-text{
+    text-align: center;
+}
+#p2{
+    margin-top: 25px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 3px;
+    text-align: center;
+}
+footer{
+    height: 303px;
+    background-color: rgba(32, 32, 32, 0.918);
+    display: flex;
+}
+.footer1{
+width: 40%;
+
+}
+.line1{
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.line1 ul{
+    list-style: none;
+}
+.line1 ul li{
+    margin-top: 10px;
+}
+.footer2{
+width:60%;
+display: flex;
+margin-top: 20px;
+}
+.line2{
+    margin-left: 80px;
+   
+}
+.LINE-2{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.LINE-2 h4{
+    margin-bottom: 5px;
+}
+.locations{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.locations p{
+    margin-top: 4px;
+}
+.cont{
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.cont p{
+    margin-top: 4px;
+}
+.font-icon{
+    margin-top: 40px;
+    color: white;
+    font-size: large;
+}
+.copyright {
+    padding-left: 40px;
+    background-color: rgba(32, 32, 32, 0.918);
+    color: rgb(112, 112, 112);
+    height: 25px;
+    font-family: sans-serif;
+}

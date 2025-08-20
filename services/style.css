@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: #0ef;
+    background: black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-left: 20px;
+    padding-top: 10px;
+    
+}
+.logo h2{
+    margin: 8px;
+    font-family: sans-serif;
+}
+.header ul li{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+ul{
+    margin-top: 20px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+li a{
+    text-decoration: none;
+    color: #0ef;
+}
+li a:hover{
+    color: #0ef;
+    text-shadow: 0 0 10px #0ef, 0 0 20px #0ef, 0 0 40px #0ef, 0 0 80px #0ef,
+    0 0 160px #0ef;
+
+}
+.main{
+    background: rgba(168, 168, 168, 0.288);
+    padding: 40px;
+}
+.box1{
+    margin: 40px;
+    background: rgb(36, 35, 35);
+    height: 320px;
+    border-radius: 12px;
+    box-shadow: 0 18px 20px rgba(37, 36, 36, 0.925);
+    display: flex;
+}
+.detail{
+width: 50%;
+color: #0ef;
+margin: 40px;
+font-family: sans-serif;
+}
+.detail P{
+    color: aliceblue;
+    margin-top: 20px;
+}
+#p1{
+    padding-top: 10px;
+}
+.img img{
+  height: 260px;
+  margin: 30px;
+  border-radius: 12px;
+  width: 530px;
+}
+.img img:hover{
+      box-shadow: 0 8px 20px rgba(80, 79, 79, 0.925);
+     border-radius: 12px;
+}
+footer{
+    height: 303px;
+    background-color: rgba(32, 32, 32, 0.918);
+    display: flex;
+}
+.footer1{
+width: 40%;
+}
+.line1{
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.line1 ul{
+    list-style: none;
+}
+.line1 ul li{
+    margin-top: 10px;
+}
+.footer2{
+  width:60%;
+  display: flex;
+  margin-top: 20px;
+}
+.line2{
+    margin-left: 80px;
+   
+}
+.LINE-2{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.LINE-2 h4{
+    margin-bottom: 5px;
+}
+.locations{
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.locations p{
+    margin-top: 4px;
+}
+.cont{
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.cont p{
+    margin-top: 4px;
+}
+.font-icon{
+    margin-top: 40px;
+    color: white;
+    font-size: large;
+     text-shadow: 0 0 10px #0ef, 0 0 20px #0ef, 0 0 40px #0ef, 0 0 80px #0ef,
+    0 0 160px #0ef;
+}
+.copyright {
+    padding-left: 40px;
+    background-color: rgba(32, 32, 32, 0.918);
+    color: rgb(112, 112, 112);
+    height: 25px;
+    font-family: sans-serif;
+}

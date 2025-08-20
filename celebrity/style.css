@@ -1,0 +1,127 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fafafa;
+}
+.header{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+color: #0ef;
+background: black;
+}
+.logo{
+display: flex;
+justify-content: center;
+height: 60px;
+margin-left: 20px;
+padding-top: 10px;
+
+}
+.logo h2{
+margin: 7px 0 8px 8px;
+font-family: sans-serif;
+color: #0ef;
+font-size: 30px;
+}
+.header ul li{
+display: inline;
+font-size: 20px;
+font-weight: bold;
+margin: 15px;
+}
+ul{
+margin-top: 20px;
+margin-right: 10px;
+font-family: sans-serif;
+}
+li a{
+text-decoration: none;
+color: #0ef;
+}
+li a:hover{
+color: #0ef;
+text-shadow: 0 0 10px #0ef, 0 0 20px #0ef, 0 0 40px #0ef, 0 0 80px #0ef,
+0 0 160px #0ef;
+
+}
+
+.celebrity{
+ background-color: #000;
+  background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1') center/cover no-repeat;
+  color: #ffd700;
+  padding: 180px 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.celebrity p{
+    color: #9e9c9c;
+}
+.mains{
+    background: #242323;
+    padding-bottom: 60px;
+}
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #cacbcc;
+  padding: 20px 0 40px 0;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 20px rgba(116, 114, 114, 0.925);
+}
+
+.celeb-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #3498db;
+}
+
+.celeb-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.celeb-role {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #aaa;
+  font-size: 14px;
+}

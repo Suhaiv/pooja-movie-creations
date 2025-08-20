@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: #0ef;
+    background: black;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-left: 20px;
+    padding-top: 10px;
+    
+}
+.logo h2{
+    margin: 8px;
+    font-family: sans-serif;
+}
+.header ul li{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+ul{
+    margin-top: 20px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+li a{
+    text-decoration: none;
+    color: #0ef;
+}
+li a:hover{
+    color: #0ef;
+    text-shadow: 0 0 10px #0ef, 0 0 20px #0ef, 0 0 40px #0ef, 0 0 80px #0ef,
+    0 0 160px #0ef;
+
+}
+.nav-bar{
+    background: rgb(212, 212, 212);
+    font-family: sans-serif;
+}
+.hero{
+    padding: 40px;
+      font-size: 25px;
+}
+.hero p{
+    padding-top: 5px;
+     font-size: 20px;
+}
+.about{
+    padding: 0 40px 20px 40px ;
+    font-size: 25px;
+}
+.about p{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.mains{
+    margin: 20px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(80, 79, 79, 0.925);
+}
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 40px;
+}
+
+.channel-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+   box-shadow: 0 8px 20px rgba(80, 79, 79, 0.925);
+  transition: transform 0.3s ease;
+   margin-bottom: 30px;
+}
+
+.channel-card:hover {
+  transform: translateY(-5px);
+}
+
+.channel-card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+.channel-card img:hover{
+    box-shadow: 0 8px 20px rgba(80, 79, 79, 0.925);
+}
+.channels h2{
+    padding: 10px;
+}
+.formats, .benefits {
+  background: #ffffff;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 40px 20px;
+  box-shadow: 0 8px 20px rgba(80, 79, 79, 0.925);
+}
+
+.formats ul, .benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.formats li, .benefits li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+li:hover{
+     box-shadow: 0 8px 20px rgba(80, 79, 79, 0.925);
+     border-radius: 7px;
+}
+.cta {
+  background: #ff6600;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 40px 20px;
+  box-shadow: 0 8px 20px rgba(80, 79, 79, 0.925);
+}
+
+.cta .btn {
+  background: white;
+  color: #ff6600;
+  padding: 12px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 7px;
+}
+.book{
+    margin-top: 18px;
+   
+}
+.cta .btn:hover{
+    background: #fda061;
+    color: #eeeded;
+    border: 1px solid salmon;
+    text-shadow: 0 0 10px #fc6704, 0 0 20px #fc6704, 0 0 40px #fc6704, 0 0 80px #fc6704,
+    0 0 160px #fc6704;
+}
