@@ -1,0 +1,60 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Navbar */
+nav {
+background: linear-gradient(135deg, #6a3093 0%, #a044ff 100%);;
+color: white;
+display: flex;
+height: 70px;
+align-items: center;
+justify-content: space-between;
+padding: 0.7rem 2rem;
+}
+
+/* Logo */
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: black;
+display: flex;
+font-size: 1.3rem;
+font-family: sans-serif;
+}
+.logo h1{
+padding: 7px 0 0 20px;
+}
+
+/* Menu Links */
+ul {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+ul li {
+position: relative;
+}
+
+ul li a {
+color: rgb(0, 0, 0);
+text-decoration: none;
+font-size: 1.6rem;
+font-family: sans-serif;
+transition: color 0.3s;
+}
+
+ul li a:hover {
+color: #ff9800;
+}
+.main{
+    background: white;
+}
+.clients-review{
+    background: #78ed66;
+    background: linear-gradient(90deg,rgba(120, 237, 102, 1) 0%, rgba(58, 232, 229, 1) 50%, rgba(162, 232, 128, 1) 100%);
+    height: 200px;
+}
