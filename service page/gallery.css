@@ -81,7 +81,7 @@ li:hover .dropdown-content {
 display: block;
 }
 .main{
-    background: white;
+    background: rgba(251, 255, 0, 0.856);
      padding: 60px;
 }
 .gallery{
@@ -108,6 +108,13 @@ h1{
 .row1 img{
 width: 30.5%;
 margin: 0 15px 15px 15px;
+border-radius: 7px;
+
+}
+.row1 img:hover{
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    transition: background 0.3sec ease;
+     transform: translateY(-10px);
 }
 footer{
 height: 303px;
