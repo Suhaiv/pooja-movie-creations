@@ -244,11 +244,25 @@ display: block;
 }
 
 .caption {
-padding: 8px;
-font-weight: bold; 
-font-size: 16px;
+padding: 12px;
+font-size: 18px;
+text-align: left;
 font-family: sans-serif;
 background: #fff;
+}
+.caption p{
+    font-size: 14px;
+}
+.slider-icon{
+    display: flex ;
+    padding: 10px;
+}
+.slider-icon i{
+    color: #ff4d4d;
+    font-size: 16px;
+}
+.slider-icon p{
+    font-size: 17px;
 }
 .track2 {
 display: flex;
