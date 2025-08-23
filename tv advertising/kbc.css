@@ -18,7 +18,7 @@ padding: 0.7rem 2rem;
 .logo {
 font-size: 1.5rem;
 font-weight: bold;
-color: rgb(255, 255, 255);
+color: rgb(255, 238, 0);
 display: flex;
 font-size: 1.3rem;
 font-family: sans-serif;
@@ -75,4 +75,97 @@ background: #444;
 
 li:hover .dropdown-content {
 display: block;
+}
+.main{
+    font-family: sans-serif;
+     background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); 
+}
+/* --- header --- */
+.header{
+    width: 100%;
+    /* height: 500px; */
+    text-align: center;
+    padding: 50px 0 70px 0;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); 
+}
+.kbc-style1{
+    margin: 0 35%;
+    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 50%, #ffd700 100%);
+    border-radius: 50px;
+    padding: 10px;
+}
+.kbc-style2{
+    font-size: 35px;
+    color: yellow;
+    margin: 23px;
+}
+.kbc-style3{
+    font-size: 26px;
+    color: gray;
+}
+/* --- ready to each --- */
+.ready-to-each{
+background: rgb(2, 2, 139);
+height: 180px;
+text-align: center;
+color: yellow;
+font-size: 25px;
+padding: 50px 0;
+text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+/* --- about --- */
+.about{
+height: 500px;
+}
+.about-detail{
+height: 200px;
+text-align: center;
+}
+.about-detail h1{
+    color: yellow;
+    font-size: 50px;
+    padding-top: 70px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+.about-detail p{
+    color: gray;
+    font-size: 22px;
+    padding: 10px;
+}
+.about-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.box1{
+    width: 20%;
+    height: 250px;
+    background: #0f172ae7;
+    border-radius: 15px;
+    transition: background 0.3s ease;
+    padding: 30px;
+}
+.box1:hover{
+   transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(255, 255, 0, 0.253);
+}
+.circle{
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 80px;
+    font-weight: bold;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 30%;
+    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 50%, #ffd700 100%);
+}
+.box1 h2{
+    color: white;
+    padding: 20px 0;
+}
+.box1 p{
+    color: gray;
+    font-size: 18px;
 }

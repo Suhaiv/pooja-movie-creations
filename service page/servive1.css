@@ -121,7 +121,7 @@ header p {
   background: rgba(255, 255, 255, 0.123);
   padding: 30px 20px; 
    margin: 15px;
-box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   border-radius: 15px;
   text-align: center;
   width: 30%;
