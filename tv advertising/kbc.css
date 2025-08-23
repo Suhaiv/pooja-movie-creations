@@ -105,7 +105,7 @@ display: block;
 }
 /* --- ready to each --- */
 .ready-to-each{
-background: rgb(2, 2, 139);
+background: rgb(29, 29, 122);
 height: 180px;
 text-align: center;
 color: yellow;
@@ -168,4 +168,58 @@ text-align: center;
 .box1 p{
     color: gray;
     font-size: 18px;
+}
+/* --- our services ---- */
+.our-services{
+    background: #00000059;
+    padding: 70px;
+}
+.our-detail{
+    text-align: center;
+}
+.our-detail h1{
+     color: yellow;
+    font-size: 50px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.8);
+}
+.our-detail p{
+    color: gray;
+    font-size: 22px;
+    padding: 10px;
+}
+.our-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.box2{
+    width: 30%;
+    background: #343944e7;
+    height: 400px;
+    border-radius: 12px;
+    padding: 30px;
+}
+.box2:hover{
+   transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(255, 255, 0, 0.253);
+}
+.our-circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 50%, #ffd700 100%);
+}
+.our-circle i{
+    font-size: 40px;
+    padding: 20px;
+}
+.box2 h1{
+    color: white;
+    padding-top: 30px;
+}
+.box2 p{
+    color: gray;
+    padding: 5px;
+    font-size: 17px;
 }
