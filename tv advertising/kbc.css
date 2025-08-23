@@ -259,7 +259,7 @@ text-align: center;
   box-shadow: 0 8px 25px rgba(255, 255, 0, 0.253);
 }
 .special{
-    background: yellow;
+    background: rgb(228, 196, 14);
     margin: -45px -30px  -30px;
     height: 530px;
     padding-top: 20px;
@@ -353,7 +353,7 @@ textarea{
     border-radius: 15px;
     background: #505052;
     border: none;
-    margin: 7px 0 0 10px;
+    margin: 12px 0 20px 15px;
 }
 textarea::placeholder{
     font-size: 22px;
@@ -364,4 +364,91 @@ textarea::placeholder{
    background: linear-gradient(135deg, #ffd700 0%, #ffed4e 50%, #ffd700 100%); 
    color: black;
    width: 90%; 
+}
+/* --- footer --- */
+footer{
+height: 303px;
+background-color: #131313d8;
+display: flex;
+}
+.footer1{
+width: 40%;
+}
+.footer1 h1{
+ color: yellow;
+ font-size: 60px;
+ font-style: italic;
+ margin: 70px 0 0 120px;
+ text-shadow: 2px 7px 3px rgba(0,0,0,0.9);
+}
+.line1{
+margin-left: 80px;
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.line1 p{
+padding-top: 5px;
+}
+.line1 p a{
+color: rgb(255, 255, 255);
+list-style: none;
+text-decoration: none;
+}
+.line1 p a:hover{
+    color: orange;
+}
+.footer2{
+width:60%;
+display: flex;
+margin-top: 20px;
+}
+.line2{
+margin-left: 80px;
+
+}
+.LINE-2{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.LINE-2 h4{
+margin-bottom: 5px;
+}
+.LINE-2 p:hover{
+    color: orange;
+}
+.locations{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.locations p{
+margin-top: 4px;
+}
+.locations p:hover{
+    color: orange;
+}
+.cont{
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.cont p{
+margin-top: 4px;
+}
+.cont p:hover{
+    color: orange;
+}
+.font-icon{
+margin-top: 40px;
+color: rgb(255, 255, 255);
+font-size: large;
+}
+.copyright {
+padding-left: 40px;
+background-color: #131313d8;
+height: 25px;
+font-family: sans-serif;
+color: white;
 }
