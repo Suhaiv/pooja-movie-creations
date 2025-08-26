@@ -1,0 +1,222 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Navbar */
+nav {
+background: #242323;
+color: rgb(240, 77, 77);
+display: flex;
+height: 70px;
+align-items: center;
+justify-content: space-between;
+padding: 0.7rem 2rem;
+}
+
+/* Logo */
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+color: rgb(240, 108, 108);
+display: flex;
+font-size: 1.3rem;
+font-family: sans-serif;
+}
+.logo h1{
+padding: 7px 0 0 20px;
+}
+
+/* Menu Links */
+ul {
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+ul li {
+position: relative;
+}
+
+ul li a {
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-size: 1.6rem;
+font-family: sans-serif;
+transition: color 0.3s;
+}
+
+ul li a:hover {
+color: #ff9800;
+}
+
+/* Dropdown */
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: #333;
+min-width: 250px;
+box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+z-index: 1;
+border-radius: 5px;
+}
+
+.dropdown-content a {
+display: block;
+padding: 0.7rem 1rem;
+color: white;
+}
+
+.dropdown-content a:hover {
+background: #444;
+}
+
+li:hover .dropdown-content {
+display: block;
+}
+.main{
+    font-family: sans-serif;
+}
+/* --- header --- */
+.header{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 70px 0;
+    background: rgb(203, 203, 253);
+
+}
+.news-style1{
+    margin: 0 30%;
+    background: #ff1717;
+    background: linear-gradient(90deg,rgba(255, 23, 23, 0.98) 4%, rgba(240, 91, 91, 1) 46%, rgba(255, 23, 23, 0.98) 96%);
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+}
+.news-style2{
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    margin: 23px;
+}
+.news-style3{
+    font-size: 26px;
+    color: rgb(128, 108, 108);
+}
+.number{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.number-para h1{
+    color: rgb(0, 0, 0);
+}
+.number-para p{
+    color: rgb(94, 92, 92);
+    font-weight: bold;
+}
+/* --- about --- */
+.about{
+height: 500px;
+background: #1717ff;
+background: linear-gradient(90deg,rgba(23, 23, 255, 0.9) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%);
+}
+.about-detail{
+height: 200px;
+text-align: center;
+}
+.about-detail h1{
+    color: orangered;
+    font-size: 50px;
+    padding-top: 70px;
+    text-shadow: 2px 4px 3px rgba(245, 93, 93, 0.8);
+}
+.about-detail p{
+    color: rgb(63, 62, 116);
+    font-size: 22px;
+    padding: 10px;
+}
+.about-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.box1{
+    width: 20%;
+    height: 230px;
+    background: #251d692a;
+    text-align: center;
+    border-radius: 15px;
+    transition: background 0.3s ease;
+    padding: 30px;
+   border: 2px solid rgba(0, 255, 255, 0.514);
+}
+.box1:hover{
+   transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(25, 0, 255, 0.671);
+}
+.circle{
+    border-radius: 50%;
+    box-shadow:0 8px 25px #ffffff52;
+    height: 80px;
+    color: white;
+    font-weight: bold;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 30%;
+    background: #1717ff;
+    background: linear-gradient(90deg,rgba(23, 23, 255, 0.9) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%);
+}
+.box1 h2{
+    padding: 20px 0;
+    padding-bottom: 10px;
+    color: white;
+}
+.box1 p{
+    color: rgb(3, 226, 255);
+    font-size: 18px;
+}
+/* --- our services ---- */
+.our-services{
+    background: #f3d8d859;
+    padding: 70px 0 70px 0;
+}
+.our-detail{
+    text-align: center;
+}
+.our-detail h1{
+     color: orangered;
+    font-size: 50px;
+    text-shadow: 0px 3px 2px rgba(202, 35, 35, 0.8);
+}
+.our-detail p{
+    color: rgb(83, 82, 82);
+    font-size: 22px;
+    padding: 10px;
+}
+.our-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.box2{
+    width: 18%;
+    background: #ffffffe7;
+    height: 300px;
+    border-radius: 12px;
+}
+.box2 img{
+    width: 100%;
+    height: 60%;
+    border-radius: 8px;
+}
+.box2:hover{
+   transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.253);
+}
+
