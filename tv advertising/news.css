@@ -6,7 +6,7 @@ box-sizing: border-box;
 /* Navbar */
 nav {
 background: #242323;
-color: rgb(240, 77, 77);
+color: rgb(75, 115, 247);
 display: flex;
 height: 70px;
 align-items: center;
@@ -18,7 +18,7 @@ padding: 0.7rem 2rem;
 .logo {
 font-size: 1.5rem;
 font-weight: bold;
-color: rgb(240, 108, 108);
+color: rgb(0, 58, 248);
 display: flex;
 font-size: 1.3rem;
 font-family: sans-serif;
@@ -47,7 +47,7 @@ transition: color 0.3s;
 }
 
 ul li a:hover {
-color: #ff9800;
+color: #0026ff;
 }
 
 /* Dropdown */
@@ -78,31 +78,32 @@ display: block;
 }
 .main{
     font-family: sans-serif;
+    margin: -10px 0 0 0;
 }
 /* --- header --- */
 .header{
     width: 100%;
     text-align: center;
     padding: 50px 0 70px 0;
-    background: rgb(203, 203, 253);
+    background: rgb(0, 0, 0);
 
 }
 .news-style1{
     margin: 0 30%;
-    background: #ff1717;
-    background: linear-gradient(90deg,rgba(255, 23, 23, 0.98) 4%, rgba(240, 91, 91, 1) 46%, rgba(255, 23, 23, 0.98) 96%);
+        background: #1717ff;
+    background: linear-gradient(90deg,rgba(23, 23, 255, 0.9) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%);
     border-radius: 50px;
     padding: 10px;
     color: white;
 }
 .news-style2{
     font-size: 35px;
-    color: rgb(255, 0, 0);
+    color: rgb(47, 0, 255);
     margin: 23px;
 }
 .news-style3{
     font-size: 26px;
-    color: rgb(128, 108, 108);
+    color: rgb(190, 190, 190);
 }
 .number{
     display: flex;
@@ -111,10 +112,10 @@ display: block;
     margin-top: 30px;
 }
 .number-para h1{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .number-para p{
-    color: rgb(94, 92, 92);
+    color: rgb(185, 185, 185);
     font-weight: bold;
 }
 /* --- about --- */
@@ -401,7 +402,7 @@ display: flex;
 width: 40%;
 }
 .footer1 h1{
- color: yellow;
+ color: rgb(255, 255, 255);
  font-size: 60px;
  font-style: italic;
  margin: 70px 0 0 120px;
@@ -422,7 +423,7 @@ list-style: none;
 text-decoration: none;
 }
 .line1 p a:hover{
-    color: orange;
+    color: rgb(0, 38, 255);
 }
 .footer2{
 width:60%;
@@ -442,7 +443,7 @@ color: rgb(255, 255, 255);
 margin-bottom: 5px;
 }
 .LINE-2 p:hover{
-    color: orange;
+    color: rgb(55, 0, 255);
 }
 .locations{
 margin-top: 20px;
@@ -453,7 +454,7 @@ color: rgb(255, 255, 255);
 margin-top: 4px;
 }
 .locations p:hover{
-    color: orange;
+    color: rgb(17, 0, 255);
 }
 .cont{
 margin-top: 20px;
@@ -464,7 +465,7 @@ font-family: sans-serif;
 margin-top: 4px;
 }
 .cont p:hover{
-    color: orange;
+    color: rgb(38, 0, 255);
 }
 .font-icon{
 margin-top: 40px;
