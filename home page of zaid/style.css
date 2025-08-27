@@ -130,7 +130,7 @@ li:hover .dropdown-content {
 }
 
  
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1300px){
     .slider{
         height: 400px;
     }
@@ -169,7 +169,7 @@ video:hover{
 .cradbility{
     height: 150px;
     text-align: center;
-    padding: 70px;
+    padding: 60px;
     background: #1717ff;
     background: linear-gradient(90deg,rgb(23, 23, 255) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%);
     color: rgb(255, 255, 255);
@@ -189,11 +189,31 @@ video:hover{
     font-size: 40px;
 }
 .about-us p{
+    padding: 10px 10px 30px 10px;
+}
+.btn{
+    color: white;
     padding: 10px;
+    font-size: 25px;
+    width: 200px;
+    border: none ;
+    border-radius: 30px;
+    background: #1717ff;
+    background: linear-gradient(90deg,rgb(23, 23, 255) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%); 
 }
 .about-img{
     width: 40%;
     margin: 40px;
     border: 2px solid blue;
     border-radius: 12px;
+    box-shadow: 0 2px 5px blue;
+}
+.about-img img{
+    overflow: hidden;
+    border-radius: 12px;
+}
+.about-img h1{
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
