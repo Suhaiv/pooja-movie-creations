@@ -363,7 +363,7 @@ display: flex;
 width: 40%;
 }
 .footer1 h1{
- color: yellow;
+ color: rgb(255, 255, 255);
  font-size: 60px;
  font-style: italic;
  margin: 70px 0 0 120px;

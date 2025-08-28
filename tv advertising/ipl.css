@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: sans-serif;
-    background: #020024;
-}
-
 /* Navbar */
 nav {
     background: #000000;
@@ -71,7 +66,10 @@ ul li a:hover {
 li:hover .dropdown-content {
     display: block;
 }
-
+.mains{
+        background: #020024;
+        font-family: Arial, Helvetica, sans-serif;
+}
 /* ---header img --- */
 .main {
     background: #020024;
@@ -552,7 +550,6 @@ width: 40%;
 .footer1 h1{
  color: rgb(255, 255, 255);
  font-size: 60px;
- font-style: italic;
  margin: 70px 0 0 120px;
  text-shadow: 2px 7px 3px rgba(0,0,0,0.9);
 }
@@ -571,7 +568,7 @@ list-style: none;
 text-decoration: none;
 }
 .line1 p a:hover{
-    color: rgb(0, 38, 255);
+    color: orangered;
 }
 .footer2{
 width:60%;
@@ -591,7 +588,7 @@ color: rgb(255, 255, 255);
 margin-bottom: 5px;
 }
 .LINE-2 p:hover{
-    color: rgb(55, 0, 255);
+    color: orangered;
 }
 .locations{
 margin-top: 20px;
@@ -602,7 +599,7 @@ color: rgb(255, 255, 255);
 margin-top: 4px;
 }
 .locations p:hover{
-    color: rgb(17, 0, 255);
+    color: orangered;
 }
 .cont{
 margin-top: 20px;
@@ -613,7 +610,7 @@ font-family: sans-serif;
 margin-top: 4px;
 }
 .cont p:hover{
-    color: rgb(38, 0, 255);
+    color: orangered;
 }
 .font-icon{
 margin-top: 40px;
