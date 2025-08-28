@@ -66,10 +66,12 @@ ul li a:hover {
 li:hover .dropdown-content {
     display: block;
 }
-.mains{
-        background: #020024;
-        font-family: Arial, Helvetica, sans-serif;
+
+.mains {
+    background: #020024;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /* ---header img --- */
 .main {
     background: #020024;
@@ -464,48 +466,57 @@ button {
     background: rgb(255, 80, 0);
     color: rgb(255, 255, 255);
 }
+
 /* --- contact --- */
-.contact-us{
+.contact-us {
     padding: 50px 190px;
 }
-.contact{
+
+.contact {
     border: 2px solid orangered;
     height: 500px;
     border-radius: 30px;
-     background: #0d0766e7;
-     display: flex;
+    background: #0d0766e7;
+    display: flex;
 }
-.get-in-touch{
-width: 50%;
-height: 100%;
-padding: 40px;
+
+.get-in-touch {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
 }
-.info{
+
+.info {
     height: 80px;
     margin: 15px 0;
     display: flex;
 }
-.pho-circle{
+
+.pho-circle {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-   background: #ff8400;
-   background: radial-gradient(circle,rgba(255, 132, 0, 0.83) 0%, rgba(255, 72, 0, 1) 88%, rgba(255, 72, 0, 1) 58%);
+    background: #ff8400;
+    background: radial-gradient(circle, rgba(255, 132, 0, 0.83) 0%, rgba(255, 72, 0, 1) 88%, rgba(255, 72, 0, 1) 58%);
 }
-.pho-circle i{
- font-size: 30px;
- padding: 15px;
- color: rgb(255, 255, 255);
+
+.pho-circle i {
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
 }
-.pho-detail{
+
+.pho-detail {
     padding: 7px 0 0 30px;
     color: white;
 }
-.contact-info{
-width: 50%;
-padding: 40px 0 0 20px;
+
+.contact-info {
+    width: 50%;
+    padding: 40px 0 0 20px;
 }
-input{
+
+input {
     width: 90%;
     height: 43px;
     border-radius: 30px;
@@ -513,12 +524,14 @@ input{
     margin: 12px;
     background: #ffffff;
 }
-input::placeholder{
+
+input::placeholder {
     color: rgb(150, 150, 150);
     padding-left: 20px;
     font-size: 18px;
 }
-textarea{
+
+textarea {
     height: 100px;
     width: 90%;
     font-family: sans-serif;
@@ -527,100 +540,122 @@ textarea{
     border: none;
     margin: 12px 0 20px 15px;
 }
-textarea::placeholder{
+
+textarea::placeholder {
     font-size: 22px;
     color: rgb(150, 150, 150);
     padding-left: 15px;
 }
-#btn{
+
+#btn {
     background: #ff8400;
-   background: radial-gradient(circle,rgba(255, 132, 0, 0.83) 0%, rgba(255, 72, 0, 1) 88%, rgba(255, 72, 0, 1) 58%); 
-   color: rgb(255, 255, 255);
-   width: 90%; 
+    background: radial-gradient(circle, rgba(255, 132, 0, 0.83) 0%, rgba(255, 72, 0, 1) 88%, rgba(255, 72, 0, 1) 58%);
+    color: rgb(255, 255, 255);
+    width: 90%;
 }
+
 /* --- footer --- */
-footer{
-height: 303px;
-background-color: #131313d8;
-display: flex;
+footer {
+    height: 303px;
+    background-color: #131313d8;
+    display: flex;
 }
-.footer1{
-width: 40%;
+
+.footer1 {
+    width: 40%;
 }
-.footer1 h1{
- color: rgb(255, 255, 255);
- font-size: 60px;
- margin: 70px 0 0 120px;
- text-shadow: 2px 7px 3px rgba(0,0,0,0.9);
+
+.footer1 h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin: 70px 0 0 120px;
+    text-shadow: 2px 7px 3px rgba(0, 0, 0, 0.9);
 }
-.line1{
-margin-left: 80px;
-margin-top: 20px;
-color: rgb(255, 255, 255);
-font-family: sans-serif;
+
+.line1 {
+    margin-left: 80px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
 }
-.line1 p{
-padding-top: 5px;
+
+.line1 p {
+    padding-top: 5px;
 }
-.line1 p a{
-color: rgb(255, 255, 255);
-list-style: none;
-text-decoration: none;
+
+.line1 p a {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
 }
-.line1 p a:hover{
+
+.line1 p a:hover {
     color: orangered;
 }
-.footer2{
-width:60%;
-display: flex;
-margin-top: 20px;
+
+.footer2 {
+    width: 60%;
+    display: flex;
+    margin-top: 20px;
 }
-.line2{
-margin-left: 80px;
+
+.line2 {
+    margin-left: 80px;
 
 }
-.LINE-2{
-margin-top: 20px;
-font-family: sans-serif;
-color: rgb(255, 255, 255);
+
+.LINE-2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
 }
-.LINE-2 h4{
-margin-bottom: 5px;
+
+.LINE-2 h4 {
+    margin-bottom: 5px;
 }
-.LINE-2 p:hover{
+
+.LINE-2 p:hover {
     color: orangered;
 }
-.locations{
-margin-top: 20px;
-font-family: sans-serif;
-color: rgb(255, 255, 255);
+
+.locations {
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
 }
-.locations p{
-margin-top: 4px;
+
+.locations p {
+    margin-top: 4px;
 }
-.locations p:hover{
+
+.locations p:hover {
     color: orangered;
 }
-.cont{
-margin-top: 20px;
-color: rgb(255, 255, 255);
-font-family: sans-serif;
+
+.cont {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
 }
-.cont p{
-margin-top: 4px;
+
+.cont p {
+    margin-top: 4px;
 }
-.cont p:hover{
+
+.cont p:hover {
     color: orangered;
 }
-.font-icon{
-margin-top: 40px;
-color: rgb(255, 255, 255);
-font-size: large;
+
+.font-icon {
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    font-size: large;
 }
+
 .copyright {
-padding-left: 40px;
-background-color: #131313d8;
-height: 25px;
-font-family: sans-serif;
-color: white;
+    padding-left: 40px;
+    background-color: #131313d8;
+    height: 25px;
+    font-family: sans-serif;
+    color: white;
 }
