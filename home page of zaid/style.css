@@ -28,7 +28,7 @@ nav {
 ul {
     list-style: none;
     display: flex;
-    gap: 6rem;
+    gap: 3rem;
 }
 
 ul li {
@@ -75,22 +75,23 @@ li:hover .dropdown-content {
 }
 
 /* --- main --- */
-.main{
+.main {
     font-family: sans-serif;
     background: black;
 }
 
-.slider{
+.slider {
     width: 100%;
     max-width: 100vw;
     height: 400px;
     margin: auto;
-    position: relative;  
-    overflow: hidden;  
+    position: relative;
+    overflow: hidden;
 }
-.slider .list{
-    position: absolute;  
-    width: max-content; 
+
+.slider .list {
+    position: absolute;
+    width: max-content;
     height: 400px;
     left: 0;
     top: 0;
@@ -98,13 +99,14 @@ li:hover .dropdown-content {
     transition: 1.5s;
 }
 
-.slider .list img{
+.slider .list img {
     width: 1350px;
     max-width: 100vw;
     height: 100%;
-     object-fit: cover; 
+    object-fit: cover;
 }
-.slider .buttons{
+
+.slider .buttons {
     position: absolute;
     top: 37%;
     left: 5%;
@@ -112,7 +114,8 @@ li:hover .dropdown-content {
     display: flex;
     justify-content: space-between;
 }
-.slider .buttons button{
+
+.slider .buttons button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -122,98 +125,225 @@ li:hover .dropdown-content {
     font-family: monospace;
     font-weight: bold;
 }
-#prev{
-    font-size: 30px;
-}
-#next{
+
+#prev {
     font-size: 30px;
 }
 
- 
-@media screen and (max-width: 1300px){
-    .slider{
+#next {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+    .slider {
         height: 400px;
     }
 }
+
 /* --- video --- */
-.video-detail{
+.video-detail {
     text-align: center;
     padding: 30px;
 }
-.video-detail h1{
+
+.video-detail h1 {
     font-size: 50px;
     color: #fff;
     text-shadow: 0 2px 5px rgb(255, 255, 255);
 }
-.video-detail p{
+
+.video-detail p {
     font-size: 22px;
     margin: 10px;
     color: rgb(214, 213, 213);
 }
 
-.video{
+.video {
     display: flex;
     justify-content: center;
-    padding: 30px;
-   
-}
-video {
- box-shadow: 0 2px 5px blue;
-}
-video:hover{
-     box-shadow: 0  5px 15px blue;
-     transform: translateY(-10px);
+    padding: 70px;
 
 }
+
+video {
+    box-shadow: 0 2px 5px rgb(208, 208, 211);
+}
+
+video:hover {
+    box-shadow: 0 5px 15px rgb(218, 218, 219);
+    transform: translateY(-10px);
+
+}
+
 /* --- cradibility --- */
-.cradbility{
+.cradbility {
     height: 150px;
     text-align: center;
     padding: 60px;
     background: #1717ff;
-    background: linear-gradient(90deg,rgb(23, 23, 255) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%);
+    background: linear-gradient(90deg, rgb(23, 23, 255) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%);
     color: rgb(255, 255, 255);
 }
+
 /* --- about ---  */
-.about{
+.about {
     display: flex;
+    height: 530px;
 }
-.about-us{
+
+.about-us {
     color: white;
     width: 60%;
     text-align: center;
     margin: 40px;
     line-height: 1.8;
 }
-.about-us h1{
+
+.about-us h1 {
     font-size: 40px;
 }
-.about-us p{
+
+.about-us p {
     padding: 10px 10px 30px 10px;
 }
-.btn{
+
+.btn {
     color: white;
     padding: 10px;
     font-size: 25px;
     width: 200px;
-    border: none ;
+    border: none;
     border-radius: 30px;
     background: #1717ff;
-    background: linear-gradient(90deg,rgb(23, 23, 255) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%); 
+    background: linear-gradient(90deg, rgb(23, 23, 255) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%);
 }
-.about-img{
+
+.about-img {
     width: 40%;
     margin: 40px;
-    border: 2px solid blue;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 12px;
-    box-shadow: 0 2px 5px blue;
+    box-shadow: 0 2px 5px rgb(226, 226, 230);
+    height: 400px;
 }
-.about-img img{
+
+.about-img img {
     overflow: hidden;
     border-radius: 12px;
 }
-.about-img h1{
+
+.about-img h1 {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+/* --- our services --- */
+.our-services {
+    height: 600px;
+}
+
+.our-heading {
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    text-shadow: 0 2px 5px white;
+    color: #fff;
+    background: #1717ff;
+    background: linear-gradient(90deg, rgb(23, 23, 255) 4%, rgba(0, 178, 255, 1) 46%, rgba(23, 23, 255, 0.94) 96%);
+}
+
+/* Container */
+.slider1 {
+    width: 100%;
+    max-width: 1100px;
+    margin: 80px auto;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0);
+}
+
+/* The track holds two identical groups (for seamless loop) */
+.track1 {
+    display: flex;
+    gap: 65px;
+    /* animate the whole track left by half its width (since content is duplicated) */
+    animation: scroll 12s linear infinite;
+    align-items: center;
+}
+
+/* One group of 5 boxes; duplicated in markup */
+.group {
+    display: flex;
+    gap: 65px;
+    /* prevent wrapping so width is consistent */
+    flex-wrap: nowrap;
+}
+
+/* Each box */
+.box-c1 {
+    border: 2px solid rgb(0, 0, 0);
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700; 
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background: white;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.box-c1 img{
+    border-radius: 10px 10px 0 0;
+}
+.box-c1 p{
+    margin: 5px;
+}
+.box-c1:hover{
+    box-shadow: 0 5px 15px rgb(218, 218, 219);
+    transform: translateY(-10px);
+}
+.btnn{
+    border: none;
+    background: black;
+    color: white;
+    padding: 7px;
+    width: 90px;
+    border-radius: 5px;
+    margin: 12px;
+}
+.btnn:hover{
+    background: blue;
+    color: white;
+}
+
+/* Animation: slide left by 50% (moves first group out, second identical group follows) */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Responsive: smaller boxes on narrow screens */
+@media (max-width: 520px) {
+    .box {
+        flex: 0 0 140px;
+        height: 100px;
+        font-size: 14px;
+    }
+
+    .track {
+        gap: 20px;
+    }
 }
