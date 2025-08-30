@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+nav {
+    background: #000000;
+    color: white;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 2rem;
+}
+
+
+/* Menu Links */
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li {
+    position: relative;
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: sans-serif;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #ff9800;
+}
+
+/* Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
+    min-width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 0.7rem 1rem;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background: #444;
+}
+
+li:hover .dropdown-content {
+    display: block;
+}
+
+/* -- main --- */
+.main {
+    background: white;
+    font-family: sans-serif;
+}
+
+/* --- headre --- */
+.radio {
+    height: 450px;
+    display: flex;
+    background: #ba80c4;
+    background: linear-gradient(263deg, rgba(186, 128, 196, 1) 0%, rgba(93, 93, 222, 1) 90%);
+}
+.radio-detail{
+    width: 50%;
+}
+.radio-detail h1{
+    font-size: 55px;
+    margin: 40px;
+    color: white;
+}
+.radio-detail p{
+    font-size: 26px;
+    margin: 40px;
+    color: rgb(216, 215, 215);
+}
+.radio-img{
+    width: 50%;
+    margin: 30px;
+    border-radius: 12px;
+    background: #a835bd;
+    background: linear-gradient(263deg,rgba(168, 53, 189, 0.94) 0%, rgba(70, 70, 219, 0.473) 90%);
+}
+.radio-img-box{
+    width: 90%;
+    height: 85%;
+    margin: 30px;
+    border-radius: 12px;
+}
+.radio-img-box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+/* -- number -- */
+.number {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.number-para h1 {
+    color: rgb(14, 64, 230);
+}
+
+.number-para p {
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+    margin-left: -20px;
+}
+/* --- our services ---- */
+.our-services{
+    background: #f0efef6b;
+    padding: 70px;
+}
+.our-detail{
+    text-align: center;
+}
+.our-detail h1{
+    font-size: 50px;
+}
+.our-detail p{
+    color: rgb(83, 82, 82);
+    font-size: 22px;
+    padding: 10px;
+}
+.our-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.box2{
+    width: 30%;
+    background: #ffffffe7;
+    height: 400px;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow:   0 4px 8px rgba(177, 177, 177, 0.842);
+}
+.box2:hover{
+       transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(100, 100, 100, 0.829);
+}
+.our-circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+}
+.our-circle i{
+    font-size: 35px;
+    padding: 18px;
+    color: white;
+}
+.box2 h1{
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+}
+.box2 p{
+    color: rgb(116, 116, 116);
+    padding: 15px 5px 5px 5px;
+    font-size: 17px;
+}
+/* --- why choose */
+.choose-heading{
+    text-align: center;
+    margin: 30px;
+}
+.choose-heading h1{
+    font-size: 50px;
+}
+.choose-heading p{
+    font-size: 30px;
+    color: rgb(99, 99, 99);
+}
+.choose-img-dt{
+    display: flex;
+}
+.choose-img{
+    width: 50%;
+    margin: 50px;
+}
+.choose-img img{
+    width: 100%;
+    border-radius: 12px;
+}
+.choose-dt{
+    display: flex;
+    margin: 60px 0;
+} 
+ .choose-icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    border-radius: 12px;
+    padding: 10px;
+ }
+ .choose-detail p{
+ font-size: 12px;
+ color: rgb(85, 85, 85);
+ }
+ /* ---our story --- */
+ .our-success{
+    background: black;
+ }
+ .our-story
+ {
+    text-align: center;
+    padding: 40px;
+ }
+ .our-story h1{
+    font-size: 50px;
+    color: white;
+ }
+ .our-story p{
+    font-size: 28px;
+    color: white;
+ }
+ .client-success{
+    display: flex;
+    padding: 20px; 
+ }
+
+ .client-box{
+    width: 30%;
+    margin: 20px;
+    padding: 30px; 
+    background: rgba(56, 56, 56, 0.479);
+    border-radius: 12px;
+    border: 2px solid black;
+ }
+ .client-cir{
+    display: flex;
+ }
+ .cli{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 30px;
+ }
+ .client-head{
+    padding: 10px;
+ }
+ .client-head h3{
+    color: white;
+ }
+ .client-head p{
+    color: blue;
+ }
+ .client-det{
+    color: rgb(180, 180, 180);
+    padding-top: 30px;
+    font-size: large;
+ }
+ .star{
+    font-size: 28px;
+    color: gold;
+ }
+ /* --- footer --- */
+footer{
+height: 303px;
+background-color: #131313d8;
+display: flex;
+}
+.footer1{
+width: 40%;
+}
+.footer1 h1{
+ color: rgb(255, 255, 255);
+ font-size: 60px;
+ font-style: italic;
+ margin: 70px 0 0 120px;
+ text-shadow: 2px 7px 3px rgba(0,0,0,0.9);
+}
+.line1{
+margin-left: 80px;
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.line1 p{
+padding-top: 5px;
+}
+.line1 p a{
+color: rgb(255, 255, 255);
+list-style: none;
+text-decoration: none;
+}
+.line1 p a:hover{
+    color: rgb(0, 38, 255);
+}
+.footer2{
+width:60%;
+display: flex;
+margin-top: 20px;
+}
+.line2{
+margin-left: 80px;
+
+}
+.LINE-2{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.LINE-2 h4{
+margin-bottom: 5px;
+}
+.LINE-2 p:hover{
+    color: rgb(55, 0, 255);
+}
+.locations{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.locations p{
+margin-top: 4px;
+}
+.locations p:hover{
+    color: rgb(17, 0, 255);
+}
+.cont{
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.cont p{
+margin-top: 4px;
+}
+.cont p:hover{
+    color: rgb(38, 0, 255);
+}
+.font-icon{
+margin-top: 40px;
+color: rgb(255, 255, 255);
+font-size: large;
+}
+.copyright {
+padding-left: 40px;
+background-color: #131313d8;
+height: 25px;
+font-family: sans-serif;
+color: white;
+}
