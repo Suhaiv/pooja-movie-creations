@@ -8,17 +8,16 @@
     <title>Radio advertsing</title>
 </head>
 <body>
-            <nav>
-        <div class="logo">
-            <img src="image/logo.jpeg.jpg" alt="logo" style="width: 70px; height: 70px;">
-        </div>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+    <nav>
+        <div class="logo"><img src="logo.jpeg.jpg" alt="logo"></div>
+        <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
             <li>
-                <a href="service1.html">Services </a>
-                <div class="dropdown-content">
-                    <a href="tv.html">TV Advertising</a>
+                <a href="#">Services </a>
+                <div class="dropdown">
+                     <a href="tv.html">TV Advertising</a>
                     <a href="radio.html">Radio Advertising</a>
                     <a href="pvr.html">PVR Advertising</a>
                     <a href="metro.html">Metro Advertising</a>
@@ -26,8 +25,8 @@
                 </div>
             </li>
             <li>
-                <a href="packages.html">Packages</a>
-                <div class="dropdown-content">
+                <a href="#">Packages </a>
+                <div class="dropdown">
                     <a href="kbc.html">Kbc Advertising</a>
                     <a href="news.html">News Advertising</a>
                     <a href="ipl.html">Ipl Advertising</a>
@@ -36,7 +35,7 @@
             </li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="#">Celebrity Endorsement</a></li>
-            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
     <!-- main part -->
@@ -240,5 +239,10 @@
 <div class="copyright">
    <p>Copyright 2008-2021| All rights reserved | Pooja Movie Creations Group </p>
 </div> 
+ <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
 </body>
 </html>

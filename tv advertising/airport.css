@@ -85,7 +85,6 @@
 }
 /* --- header --- */
 .header{
-    /* height: 450px; */
     display: flex;
     width: 100%;
     background: #020024;
@@ -358,9 +357,9 @@
  }
  /* --- footer --- */
 footer{
-height: 303px;
 background-color: #131313d8;
 display: flex;
+flex-wrap: wrap;
 }
 .footer1{
 width: 40%;
@@ -392,6 +391,7 @@ text-decoration: none;
 .footer2{
 width:60%;
 display: flex;
+flex-wrap: wrap;
 margin-top: 20px;
 }
 .line2{
@@ -439,11 +439,10 @@ font-size: large;
 .copyright {
 padding-left: 40px;
 background-color: #131313d8;
-height: 25px;
 font-family: sans-serif;
 color: white;
 }
- @media only screen and (min-with:0),(max-width:980px) {
+ @media only screen and (min-with:581px),(max-width:980px) {
         .nav-links {
         display: none;
         flex-direction: column;
@@ -477,4 +476,15 @@ color: white;
     .radio-img{
         width: 100%;
     }
+    .footer1{
+        width: 100%;
+    }
+    .footer2{
+        width: 100%;
+    }
+}
+@media only screen and (min-with:0),(max-width:580px){
+.line1{
+    width: 100%;
+}
 } 
