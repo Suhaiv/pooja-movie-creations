@@ -167,6 +167,7 @@
 .box2{
     width: 350px;
     background: #47474748;
+    border: 2px solid rgb(71, 71, 71);
     border-radius: 12px;
     padding: 30px;
     margin: 30px;
@@ -214,12 +215,40 @@
     flex-wrap: wrap;
 }
 .high{
-    height: 250px;
     width: 280px;
-    border: 2px solid black;
+    border: 2px solid rgb(71, 71, 71);
     margin: 20px;
     border-radius: 12px;
-    background: rgb(53, 52, 52);
+    padding: 30px;
+    background: rgb(39, 39, 39);
+    box-shadow:  0 4px 8px rgba(48, 48, 48, 0.842);
+}
+.high:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 3px 12px rgb(123, 116, 253);
+}
+.high-head{
+    display: flex;
+}
+.high-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.high-icon i{
+    font-size: 30px;
+    padding: 15px;
+}
+.hig-h{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: #0000ff;
+}
+.high-p{
+    color: rgb(218, 218, 218);
+    font-size: 17px;
+    padding-top: 20px;
 }
  @media only screen and (min-with:0),(max-width:980px) {
         .nav-links {
