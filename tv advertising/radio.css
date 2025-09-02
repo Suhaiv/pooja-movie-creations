@@ -142,7 +142,7 @@ nav {
 }
 
 .number-para h1 {
-    color: #ba80c4;
+    color: #c645dd;
 }
 
 .number-para p {
@@ -153,7 +153,6 @@ nav {
 
 /* --- our services ---- */
 .our-services {
-    background: #0000006b;
     padding: 70px;
 }
 
@@ -167,7 +166,7 @@ nav {
 }
 
 .our-detail p {
-    color: rgb(192, 192, 192);
+    color: rgb(219, 219, 219);
     font-size: 22px;
     padding: 10px;
 }
@@ -180,7 +179,7 @@ nav {
 
 .box2 {
     width: 350px;
-    background: #47474748;
+    background: #ffffffee;
     border-radius: 12px;
     margin: 20px;
     padding: 30px;
@@ -189,7 +188,7 @@ nav {
 
 .box2:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 25px rgba(100, 100, 100, 0.829);
+    box-shadow: 0 8px 25px rgba(124, 73, 113, 0.925);
 }
 
 .our-circle {
@@ -205,12 +204,12 @@ nav {
 }
 
 .box2 h1 {
-    color: #ba80c4;
+    color: #d11af1;
     padding-top: 30px;
 }
 
 .box2 p {
-    color: rgb(207, 207, 207);
+    color: rgb(32, 32, 32);
     padding: 15px 5px 5px 5px;
     font-size: 17px;
 }
@@ -292,7 +291,7 @@ nav {
 
 .our-story p {
     font-size: 28px;
-    color: white;
+    color: rgb(206, 206, 206);
 }
 
 .client-success {
@@ -306,9 +305,9 @@ nav {
     width: 350px;
     margin: 20px;
     padding: 30px;
-    background: rgba(56, 56, 56, 0.479);
+    background: rgba(255, 255, 255, 0.911);
     border-radius: 12px;
-    border: 2px solid black;
+
 }
 
 .client-cir {
@@ -327,15 +326,15 @@ nav {
 }
 
 .client-head h3 {
-    color: white;
+    color: rgb(255, 0, 242);
 }
 
 .client-head p {
-    color: #ba80c4;
+    color: #474747;
 }
 
 .client-det {
-    color: rgb(180, 180, 180);
+    color: rgb(36, 36, 36);
     padding-top: 30px;
     font-size: large;
 }
