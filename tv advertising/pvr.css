@@ -65,13 +65,3 @@ ul li a:hover {
 li:hover .dropdown-content {
     display: block;
 }
-/* ---main ---- */
-.main{
-    background: white;
-}
-/* --- header --- */
-.header{
-    height: 450px;
-    background: #954dfa;
-    background: linear-gradient(148deg,rgba(149, 77, 250, 1) 28%, rgba(209, 82, 209, 1) 80%);
-}

@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="airport.css">
     <title>Airport Advertising</title>
 </head>
+
 <body>
-                    <nav>
-        <div class="logo">
-            <img src="image/logo.jpeg.jpg" alt="logo" style="width: 70px; height: 70px;">
-        </div>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+    <nav>
+        <div class="logo"><img src="logo.jpeg.jpg" alt="logo"></div>
+        <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
             <li>
-                <a href="service1.html">Services </a>
-                <div class="dropdown-content">
-                    <a href="tv.html">TV Advertising</a>
+                <a href="#">Services </a>
+                <div class="dropdown">
+                     <a href="tv.html">TV Advertising</a>
                     <a href="radio.html">Radio Advertising</a>
                     <a href="pvr.html">PVR Advertising</a>
                     <a href="metro.html">Metro Advertising</a>
@@ -25,8 +29,8 @@
                 </div>
             </li>
             <li>
-                <a href="packages.html">Packages</a>
-                <div class="dropdown-content">
+                <a href="#">Packages </a>
+                <div class="dropdown">
                     <a href="kbc.html">Kbc Advertising</a>
                     <a href="news.html">News Advertising</a>
                     <a href="ipl.html">Ipl Advertising</a>
@@ -35,8 +39,98 @@
             </li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="#">Celebrity Endorsement</a></li>
-            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+    <!-- main part -->
+    <div class="main">
+        <!-- header -->
+        <div class="header">
+            <div class="radio-detail">
+                <h1>Reach Global Travelers at 30,000 Feet</h1>
+                <p>Premium airport advertising solution that connect your brand with high-value audiance in the world's
+                    busiest travel hubs.</p>
+            </div>
+            <div class="radio-img">
+                <div class="radio-img-box">
+                    <img src="image/radio img.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- number -->
+        <div class="number">
+            <div class="number-para">
+                <h1>15M+</h1>
+                <p> Monthly Passengers</p>
+            </div>
+            <div class="number-para">
+                <h1>50%</h1>
+                <p>Airport Location</p>
+            </div>
+            <div class="number-para">
+                <h1>92%</h1>
+                <p>Audiance Engagement </p>
+            </div>
+            <div class="number-para">
+                <h1>24/7</h1>
+                <p>Digital Campaigns</p>
+            </div>
+        </div>
+        <!-- our services -->
+        <div class="our-services">
+            <div class="our-detail">
+                <h1>Our Advertising Solutions</h1>
+                <p>Comprehensive airport advertsing options to suit every Campaigns objective <br> and budgets</p>
+            </div>
+            <div class="our-box">
+                <div class="box2">
+                    <div class="our-circle" style="background: rgba(178, 119,233, 0.411) "><i class="fa-solid fa-signal"
+                            style="color: rgb(255, 0, 212);"></i></div>
+                    <h1>Digital Display</h1>
+                    <p>High-resolution LED screens in high-traffic areas with dynamic content capabilities.</p>
+                    <p>• 4k Ultra HD resolution</p>
+                    <p>• Real-time content updates</p>
+                    <p>• Interactive capabilities</p>
+                </div>
+                <div class="box2">
+                    <div class="our-circle" style="background: rgba(119, 136, 233, 0.411);"><i
+                            class="fa-solid fa-clipboard" style="color: blue;"></i></div>
+                    <h1>Static Billboard</h1>
+                    <p>Large-format printed display in strategic location throughout terminals.</p>
+                    <p>• Premium vinyl materials</p>
+                    <p>• strategic placement analysis</p>
+                    <p>• Long-term Campaigns options</p>
+                </div>
+                <div class="box2">
+                    <div class="our-circle" style="background: rgba(233, 193, 119, 0.411);"><i class="fa-solid fa-users"
+                            style="color: rgb(255, 166, 0);"></i></div>
+                    <h1>Terminal Takeovers</h1>
+                    <p>Complete dominance of entire terminal areas with Comprehensive branding.</p>
+                    <p>• full terminal branding</p>
+                    <p>• Multi-format integration</p>
+                    <p>• Maximum impact Campaigns</p>
+                </div>
+            </div>
+        </div>
+        <!-- why airport -->
+        <div class="audiance">
+            <div class="aud-head">
+                <h1>Why Airport Advertising</h1>
+                <p>Connect with affluents, captive audiance in premium environments</p>
+            </div>
+            <div class="high-aud">
+                <div class="high"></div>
+                <div class="high"></div>
+                <div class="high"></div>
+                <div class="high"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
 </body>
+
 </html>
