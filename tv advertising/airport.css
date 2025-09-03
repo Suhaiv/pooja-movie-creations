@@ -388,7 +388,7 @@ list-style: none;
 text-decoration: none;
 }
 .line1 p a:hover{
-    color: orange;
+    color: rgb(0, 17, 255);
 }
 .footer2{
 width:60%;
@@ -409,7 +409,7 @@ color: rgb(255, 255, 255);
 margin-bottom: 5px;
 }
 .LINE-2 p:hover{
-    color: orange;
+    color: rgb(0, 4, 255);
 }
 .locations{
 margin-top: 20px;
@@ -420,7 +420,7 @@ color: rgb(255, 255, 255);
 margin-top: 4px;
 }
 .locations p:hover{
-    color: orange;
+    color: rgb(0, 4, 255);
 }
 .cont{
 margin-top: 20px;
@@ -431,7 +431,7 @@ font-family: sans-serif;
 margin-top: 4px;
 }
 .cont p:hover{
-    color: orange;
+    color: rgb(0, 17, 255);
 }
 .font-icon{
 margin-top: 40px;

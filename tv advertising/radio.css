@@ -47,7 +47,7 @@ nav {
 .nav-links a:hover {
     background: #000000;
     border-radius: 5px;
-    color: #023dff;
+    color: #f702ff;
 }
 
 /* Dropdown Menu */
@@ -113,7 +113,7 @@ nav {
     width: 50%;
     margin: 30px;
     border-radius: 12px;
-    background: #a835bd;
+    background: #d900ff;
     background: linear-gradient(263deg, rgba(168, 53, 189, 0.94) 0%, rgba(70, 70, 219, 0.473) 90%);
 }
 
@@ -152,10 +152,6 @@ nav {
 }
 
 /* --- our services ---- */
-.our-services {
-    padding: 70px;
-}
-
 .our-detail {
     text-align: center;
 }
@@ -178,9 +174,9 @@ nav {
 }
 
 .box2 {
-    width: 350px;
+    width: 330px;
     background: #ffffffee;
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(234, 0, 255);
     border-radius: 12px;
     margin: 20px;
     padding: 30px;
@@ -308,7 +304,7 @@ nav {
     padding: 30px;
     background: rgba(255, 255, 255, 0.911);
     border-radius: 12px;
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(234, 0, 255);
 }
 
 .client-cir {
@@ -382,7 +378,7 @@ footer {
 }
 
 .line1 p a:hover {
-    color: rgb(0, 38, 255);
+    color: rgb(255, 0, 255);
 }
 
 .footer2 {
@@ -408,7 +404,7 @@ footer {
 }
 
 .LINE-2 p:hover {
-    color: rgb(55, 0, 255);
+    color: rgb(247, 0, 255);
 }
 
 .locations {
@@ -422,7 +418,7 @@ footer {
 }
 
 .locations p:hover {
-    color: rgb(17, 0, 255);
+    color: rgb(255, 0, 255);
 }
 
 .cont {
@@ -436,7 +432,7 @@ footer {
 }
 
 .cont p:hover {
-    color: rgb(38, 0, 255);
+    color: rgb(255, 0, 242);
 }
 
 .font-icon {

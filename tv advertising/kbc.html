@@ -8,16 +8,15 @@
     <title>Kaun Banaga Crorepati</title>
 </head>
 <body>
-        <nav>
-        <div class="logo">
-            <img src="image/logo.jpeg.jpg" alt="logo" style="width: 70px; height: 70px;">
-        </div>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+    <nav>
+        <div class="logo"><img src="logo.jpeg.jpg" alt="logo"></div>
+        <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
             <li>
-                <a href="service1.html">Services </a>
-                <div class="dropdown-content">
+                <a href="#">Services </a>
+                <div class="dropdown">
                     <a href="tv.html">TV Advertising</a>
                     <a href="radio.html">Radio Advertising</a>
                     <a href="pvr.html">PVR Advertising</a>
@@ -26,8 +25,8 @@
                 </div>
             </li>
             <li>
-                <a href="packages.html">Packages</a>
-                <div class="dropdown-content">
+                <a href="#">Packages </a>
+                <div class="dropdown">
                     <a href="kbc.html">Kbc Advertising</a>
                     <a href="news.html">News Advertising</a>
                     <a href="ipl.html">Ipl Advertising</a>
@@ -36,7 +35,7 @@
             </li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="#">Celebrity Endorsement</a></li>
-            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 <div class="main">
@@ -136,7 +135,7 @@
                         <div class="gold">
                             <h1>Most Popular</h1>
                         </div>
-                        <h1 style="font-size: 32px;">Gold Package</h1>
+                        <h1 style="font-size: 32px;" >Gold Package</h1>
                     <h2>₹ 5 Lakhs</h2>
                     <p>• 60-second premium commercial</p>
                     <p>• High-definition production </p>
@@ -144,7 +143,7 @@
                     <p>• National channel coverage</p>
                     <p>• Celebrity endorsement options</p>
                     <p>• Comprehensive analytics</p>
-                    <button style="background: black;">Select Package</button>
+                    <button >Select Package</button>
                     </div>
                 </div>
                 <div class="box3">
@@ -241,8 +240,12 @@
 </footer>
 <div class="copyright">
    <p>Copyright 2008-2021| All rights reserved | Pooja Movie Creations Group </p>
-</div>      
-</body>
-</html>
+</div>  
+    <!-- script -->
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>    
 </body>
 </html>
