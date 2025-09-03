@@ -167,7 +167,7 @@
 .box2{
     width: 350px;
     background: #ffffff;
-    border: 2px solid rgb(71, 71, 71);
+    border: 2px solid rgb(4, 0, 255);
     border-radius: 12px;
     padding: 30px;
     margin: 30px;
@@ -216,7 +216,7 @@
 }
 .high{
     width: 290px;
-    border: 2px solid rgb(128, 128, 128);
+    border: 2px solid rgb(17, 0, 255);
     margin: 20px;
     border-radius: 12px;
     padding: 30px;
@@ -262,7 +262,7 @@
     flex-wrap: wrap;
 }
 .glob-img-box{
-    border: 2px solid rgb(156, 156, 156);
+    border: 2px solid rgb(5, 40, 243);
     background: rgb(255, 255, 255);
     border-radius: 12px;
     width: 350px;
@@ -324,7 +324,7 @@
     padding: 30px; 
     background: rgb(255, 255, 255);
     border-radius: 12px;
-    border: 2px solid black;
+    border: 2px solid rgb(60, 6, 255);
  }
  .client-cir{
     display: flex;
