@@ -160,28 +160,24 @@ nav {
 
 .globle {
     margin-top: 30px;
+    text-align: center;
 }
 
 .glob-img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 15px;
+    padding: 15px 0 30px 0;
 }
 
-.glob-img-box {
-    border: 2px solid rgb(53, 243, 5);
-    background: rgb(255, 255, 255);
+.glob-img-box{
+    border: 2px solid rgb(5, 227, 243);
+    background: rgba(34, 35, 77, 0.747);
     border-radius: 12px;
+    height: 100%;
     width: 350px;
-    height: 300px;
-    margin: 0 30px 30px 30px;
-    box-shadow: 0 4px 8px rgba(41, 41, 41, 0.842);
-}
-
-.glob-img-box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 3px 12px rgb(56, 235, 20);
+    margin: 30px;
+    box-shadow: 0 4px 8px rgba(6, 98, 184, 0.842);
 }
 
 .glob-photo {
@@ -196,17 +192,138 @@ nav {
 }
 
 .glob-det {
-    height: 50%;
     padding: 30px;
+    
 }
 
 .glob-det h3 {
-    color: #00ff00;
+    color: #0400ff;
+    font-size: 35px;
 }
 
 .glob-det p {
     padding-top: 20px;
-    font-size: 17px;
+    font-size: 20px;
+    color: rgb(190, 190, 190);
+}
+.btn{
+    background: #0228ff;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.btn:hover{
+    background: #4962f0;
+    color: black;
+}
+/* --- free --- */
+.talk{
+    text-align: center;
+    padding: 30px;
+    background: #111170;
+    background: linear-gradient(180deg,rgba(17, 17, 112, 1) 2%, rgba(8, 8, 140, 1) 53%, rgba(12, 97, 194, 1) 100%);
+}
+.talk h1{
+    color: white;
+    font-size: 60px;
+    margin: 3% 15% 1% 15%;
+}
+.talk p{
+    color: rgb(219, 219, 219);
+    font-size: 25px;
+    margin: 0 10%;
+}
+  /* --- footer --- */
+footer{
+background-color: #131313d8;
+display: flex;
+flex-wrap: wrap;
+}
+.footer1{
+width: 40%;
+}
+.footer1 h1{
+ color: rgb(255, 255, 255);
+ font-size: 60px;
+ font-style: italic;
+ margin: 70px 0 0 120px;
+ text-shadow: 2px 7px 3px rgba(0,0,0,0.9);
+}
+.line1{
+margin-left: 80px;
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.line1 p{
+padding-top: 5px;
+}
+.line1 p a{
+color: rgb(255, 255, 255);
+list-style: none;
+text-decoration: none;
+}
+.line1 p a:hover{
+    color: rgb(0, 17, 255);
+}
+.footer2{
+width:60%;
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+.line2{
+margin-left: 80px;
+
+}
+.LINE-2{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.LINE-2 h4{
+margin-bottom: 5px;
+}
+.LINE-2 p:hover{
+    color: rgb(4, 0, 255);
+}
+.locations{
+margin-top: 20px;
+font-family: sans-serif;
+color: rgb(255, 255, 255);
+}
+.locations p{
+margin-top: 4px;
+}
+.locations p:hover{
+    color: rgb(25, 0, 255);
+}
+.cont{
+margin-top: 20px;
+color: rgb(255, 255, 255);
+font-family: sans-serif;
+}
+.cont p{
+margin-top: 4px;
+}
+.cont p:hover{
+    color: rgb(0, 4, 255);
+}
+.font-icon{
+margin-top: 40px;
+color: rgb(255, 255, 255);
+font-size: large;
+}
+.copyright {
+padding-left: 40px;
+background-color: #06020f;
+font-family: sans-serif;
+color: white;
+text-align: center;
 }
 
 @media only screen and (min-with:581px),
@@ -233,4 +350,16 @@ nav {
     .menu-toggle {
         display: block;
     }
+
+        .footer1{
+        width: 100%;
+    }
+    .footer2{
+        width: 100%;
+    }
+}
+@media only screen and (min-with:0),(max-width:580px){
+.line1{
+    width: 100%;
+}
 }
