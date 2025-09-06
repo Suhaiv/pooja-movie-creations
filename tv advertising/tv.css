@@ -548,10 +548,14 @@ footer {
   color: rgb(0, 255, 34);
 }
 
-.font-icon {
+.font-icon i{
   margin-top: 40px;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: large;
+}
+.font-icon i:hover{
+ color: #3be910;
+ 
 }
 
 .copyright {
